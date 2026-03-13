@@ -183,7 +183,6 @@
 <script setup lang="ts">
 import { onMounted, reactive, ref } from "vue"
 
-definePageMeta({ middleware: ["auth"] })
 useHead({ title: "Admin | Products" })
 
 type ProductRow = {

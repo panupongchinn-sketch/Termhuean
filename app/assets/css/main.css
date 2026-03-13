@@ -16,6 +16,18 @@ body {
     "Segoe UI", sans-serif;
 }
 
+html,
+body,
+#__nuxt {
+  min-height: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto !important;
+}
+
 /* Blue gradient backgrounds */
 .bg-gradient-blue {
   background: linear-gradient(to right, #4a90e2, #1e3a8a);

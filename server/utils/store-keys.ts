@@ -1,6 +1,7 @@
 export const ALLOWED_STORE_KEYS = new Set([
   "projects",
   "products",
+  "home_models",
   "partners",
   "contact_messages",
   "invoice_requests",

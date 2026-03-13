@@ -163,7 +163,6 @@
 <script setup lang="ts">
 import { onMounted, reactive, ref } from "vue"
 
-definePageMeta({ middleware: ["auth"] })
 useHead({ title: "Settings | User Management" })
 
 type LocalAuthAccount = {
@@ -327,9 +326,9 @@ const deleteUser = (id: string) => {
 
   const session = safeParse<any | null>(localStorage.getItem(SESSION_KEY), null)
   if (session?.user?.id === id) {
-    localStorage.removeItem(SESSION_KEY)
-    navigateTo("/login")
-    return
+      localStorage.removeItem(SESSION_KEY)
+      navigateTo("/")
+      return
   }
 
   successMsg.value = "User deleted"

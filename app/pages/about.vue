@@ -10,7 +10,7 @@
           <div class="absolute inset-0 bg-gradient-to-b from-slate-900/30 via-slate-900/10 to-slate-900/45"></div>
 
           <div class="absolute inset-x-0 top-0 flex items-center justify-between p-5 sm:p-8">
-            <img src="/MBLogo.png" alt="logo" class="h-10 w-auto sm:h-14" />
+            <img src="/N-Picsart-AiImageEnhancer.jpg" alt="logo" class="h-10 w-auto sm:h-14" />
           </div>
 
           <div class="absolute inset-x-0 top-[24%] px-5 text-center text-white sm:px-10">

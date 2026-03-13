@@ -39,7 +39,7 @@
           <div class="mx-auto w-full max-w-md rounded-2xl border border-slate-200/30 bg-white/92 shadow-2xl backdrop-blur-sm">
             <div class="border-b border-slate-200/70 p-6">
               <div class="flex items-center gap-3">
-                <img src="/MBLogo.png" alt="M&B" class="h-10 w-auto" />
+                <img src="/N-Picsart-AiImageEnhancer.jpg" alt="TERM HUEAN" class="h-10 w-auto" />
                 <div>
                   <h2 class="text-xl font-extrabold text-slate-900">เข้าสู่ระบบ</h2>
                   <p class="text-sm text-slate-600">กรอก User และ Password เพื่อเข้าใช้งาน</p>
@@ -117,6 +117,8 @@
 <script setup lang="ts">
 import { computed, ref } from "vue"
 import { useRoute } from "vue-router"
+
+await navigateTo("/")
 
 useHead({ title: "Login | M&B" })
 

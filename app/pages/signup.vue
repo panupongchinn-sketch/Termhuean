@@ -4,7 +4,7 @@
       <div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div class="p-6 border-b border-slate-100">
           <div class="flex items-center gap-3">
-            <img src="/MBLogo.png" alt="M&B" class="h-9 w-auto" />
+            <img src="/N-Picsart-AiImageEnhancer.jpg" alt="TERM HUEAN" class="h-9 w-auto" />
             <div>
               <h1 class="text-xl font-bold text-slate-900">สมัครสมาชิก</h1>
               <p class="text-sm text-slate-500">สร้างบัญชีเพื่อเข้าใช้งานและเรียนคอร์ส</p>
@@ -141,6 +141,8 @@
 <script setup lang="ts">
 import { ref } from "vue"
 
+await navigateTo("/")
+
 useHead({ title: "Signup | M&B" })
 
 const name = ref("")
@@ -187,7 +189,7 @@ const handleSignup = async () => {
     confirmPassword.value = ""
 
     setTimeout(() => {
-      navigateTo("/login")
+      navigateTo("/")
     }, 1200)
   } catch (err: any) {
     errorMessage.value = err?.message || "เกิดข้อผิดพลาด"
