@@ -17,21 +17,7 @@
               <img src="/N-Picsart-AiImageEnhancer.jpg" alt="TERM HUEAN" class="h-12 w-auto object-contain sm:h-16" />
             </NuxtLink>
 
-            <div class="flex items-center gap-3 sm:gap-5">
-              <a href="#" class="hidden text-xl font-semibold sm:inline-flex" aria-label="Facebook">f</a>
-              <a href="tel:025170688" class="hidden sm:inline-flex" :aria-label="ui.phoneAria">
-                <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current" aria-hidden="true">
-                  <path d="M6.5 2.5l3.7 3.7-2 2c1.1 2.2 2.8 3.9 5 5l2-2 3.7 3.7-2.2 2.2c-.7.7-1.8 1-2.8.8A16.8 16.8 0 0 1 4.5 8.8c-.2-1 .1-2.1.8-2.8l1.2-1.2z"></path>
-                </svg>
-              </a>
-              <span class="line-chip hidden sm:inline-flex" aria-hidden="true">LINE</span>
-              <NuxtLink
-                to="/product"
-                class="inline-flex items-center rounded-full bg-[#c9a44c] px-3 py-1.5 text-xs font-semibold text-white sm:px-6 sm:py-2 sm:text-2xl"
-              >
-                {{ ui.topButton }}
-              </NuxtLink>
-            </div>
+            <div></div>
           </div>
         </div>
       </div>

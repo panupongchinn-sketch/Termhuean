@@ -41,12 +41,12 @@
         <slot />
       </main>
 
-      <footer class="bg-emerald-800 text-white mt-auto">
+      <footer class="mt-auto bg-[#c9a44c] text-white">
         <div class="max-w-none mx-auto px-4 sm:px-6 lg:px-10 py-6">
           <div class="mb-4 text-sm font-semibold leading-relaxed text-white sm:text-lg">
             เติมเฮือน รับต่อเติมบ้าน - มหาสารคาม กาฬสินธุ์ ร้อยเอ็ด ขอนแก่น สกลนคร
           </div>
-          <div class="flex items-center justify-between gap-4 text-xs text-white/70">
+          <div class="flex items-center justify-between gap-4 text-xs text-white/85">
             <span class="text-sm font-semibold text-white sm:text-base">โทร 080-992-5304</span>
             <span>© {{ new Date().getFullYear() }} M&B</span>
           </div>
